@@ -56,17 +56,17 @@ public class Calendar {
         if (isLeapYear(this.year)) {
             if (this.month == 2) {
                 return day > 0 && day <= 29;
-            } else if (day30.contains(day)) {
+            } else if (day30.contains(this.month)) {
                 return day > 0 && day <= 30;
-            } else if (day31.contains(day)) {
+            } else if (day31.contains(this.month)) {
                 return day > 0 && day <= 31;
             }
         } else {
             if (this.month == 2) {
                 return day > 0 && day <= 28;
-            } else if (day30.contains(day)) {
+            } else if (day30.contains(this.month)) {
                 return day > 0 && day <= 30;
-            } else if (day31.contains(day)) {
+            } else if (day31.contains(this.month)) {
                 return day > 0 && day <= 31;
             }
         }
