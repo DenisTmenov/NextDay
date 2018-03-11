@@ -5,7 +5,6 @@ import java.util.Scanner;
 class Number {
     private static Scanner scanner = new Scanner(System.in);
 
-
     static int getInt() {
         String word;
         do {
